@@ -53,6 +53,10 @@ $$
 
 
 
+**实验效果见 `q2_ans_proof.ipynb` 和 `q2_ans_proof.py`**
+
+
+
 
 
 
