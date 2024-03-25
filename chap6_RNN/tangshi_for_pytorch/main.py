@@ -22,7 +22,7 @@ def process_poems1(file_name):
     poems = []
     with open(file_name, "r", encoding='utf-8', ) as f:
         for line in f.readlines():
-            print(line)
+            # print(line)
             try:
                 title, content = line.strip().split(':')
                 # content = content.replace(' ', '').replace('，','').replace('。','')
@@ -223,15 +223,13 @@ def gen_poem(begin_word):
 # run_training()  # 如果不是训练阶段 ，请注销这一行 。 网络训练时间很长。
 
 
-# pretty_print_poem(gen_poem("日"))
-# pretty_print_poem(gen_poem("红"))
-# pretty_print_poem(gen_poem("山"))
-# pretty_print_poem(gen_poem("夜"))
-# pretty_print_poem(gen_poem("湖"))
+pretty_print_poem(gen_poem("日"))
+pretty_print_poem(gen_poem("山"))
+pretty_print_poem(gen_poem("夜"))
+pretty_print_poem(gen_poem("湖"))
 # pretty_print_poem(gen_poem("湖"))
 # pretty_print_poem(gen_poem("湖"))
 # pretty_print_poem(gen_poem("君"))
-
-pretty_print_poem(gen_poem("我"))
+# pretty_print_poem(gen_poem("风"))
 
 
