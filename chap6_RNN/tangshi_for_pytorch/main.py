@@ -189,7 +189,9 @@ def pretty_print_poem(poem):  # 令打印的结果更工整
         shige.append(w)
     poem_sentences = poem.split('。')
     for s in poem_sentences:
-        if s != '' and len(s) > 10:
+        # print(s)
+        # if s != '' and len(s) > 10:
+        if s != '' and len(s)!=1:
             print(s + '。')
 
 
@@ -227,6 +229,7 @@ pretty_print_poem(gen_poem("日"))
 pretty_print_poem(gen_poem("山"))
 pretty_print_poem(gen_poem("夜"))
 pretty_print_poem(gen_poem("湖"))
+pretty_print_poem(gen_poem("君"))
 # pretty_print_poem(gen_poem("湖"))
 # pretty_print_poem(gen_poem("湖"))
 # pretty_print_poem(gen_poem("君"))
